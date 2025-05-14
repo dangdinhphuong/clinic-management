@@ -10,32 +10,32 @@
 
 ## 📁 Cấu trúc thư mục
 
-MedicalClinicManager/
-│
-├── include/
-│   ├── patient.h           ← Định nghĩa class Patient
-│   ├── medical_form.h      ← Định nghĩa class MedicalForm
-│   ├── list.h              ← Cấu trúc danh sách liên kết đơn dùng chung
-│   ├── file_handler.h      ← Hàm đọc/ghi file
-│   ├── operations.h        ← Thêm/xoá/sửa/tìm/sắp xếp
-│   ├── statistics.h        ← Phân tích, thống kê
-│   └── menu.h              ← Khai báo hàm menu
-│
-├── src/
-│   ├── main.cpp            ← Gọi menu, tích hợp toàn bộ
-│   ├── patient.cpp         ← Cài đặt class Patient
-│   ├── medical_form.cpp    ← Cài đặt class MedicalForm
-│   ├── list.cpp            ← Cài đặt danh sách liên kết đơn
-│   ├── file_handler.cpp    ← Cài đặt đọc/ghi file
-│   ├── operations.cpp      ← Cài đặt thêm/sửa/xoá/tìm/sắp xếp
-│   ├── statistics.cpp      ← Cài đặt phần tính toán thống kê
-│   └── menu.cpp            ← Hiển thị và xử lý menu
-│
-├── data/
-│   ├── patients.txt        ← Dữ liệu bệnh nhân
-│   └── medical_forms.txt   ← Dữ liệu phiếu khám
-│
-└── README.md
+    MedicalClinicManager/
+    │
+    ├── include/
+    │   ├── patient.h           ← Định nghĩa class Patient
+    │   ├── medical_form.h      ← Định nghĩa class MedicalForm
+    │   ├── list.h              ← Cấu trúc danh sách liên kết đơn dùng chung
+    │   ├── file_handler.h      ← Hàm đọc/ghi file
+    │   ├── operations.h        ← Thêm/xoá/sửa/tìm/sắp xếp
+    │   ├── statistics.h        ← Phân tích, thống kê
+    │   └── menu.h              ← Khai báo hàm menu
+    │
+    ├── src/
+    │   ├── main.cpp            ← Gọi menu, tích hợp toàn bộ
+    │   ├── patient.cpp         ← Cài đặt class Patient
+    │   ├── medical_form.cpp    ← Cài đặt class MedicalForm
+    │   ├── list.cpp            ← Cài đặt danh sách liên kết đơn
+    │   ├── file_handler.cpp    ← Cài đặt đọc/ghi file
+    │   ├── operations.cpp      ← Cài đặt thêm/sửa/xoá/tìm/sắp xếp
+    │   ├── statistics.cpp      ← Cài đặt phần tính toán thống kê
+    │   └── menu.cpp            ← Hiển thị và xử lý menu
+    │
+    ├── data/
+    │   ├── patients.txt        ← Dữ liệu bệnh nhân
+    │   └── medical_forms.txt   ← Dữ liệu phiếu khám
+    │
+    └── README.md
 
 ---
 
