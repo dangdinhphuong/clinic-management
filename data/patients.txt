@@ -1,0 +1,50 @@
+B001,Nguyen Van An,45,Nam,TP.Ho Chi Minh,300.500,2023-05-01
+B002,Tran Thi Lan,32,Nu,Ha Noi,250.750,2023-05-02
+B003,Le Minh Tam,60,Nam,Da Nang,400.000,2023-05-03
+B004,Pham Quynh Anh,28,Nu,Can Tho,180.300,2023-05-04
+B005,Nguyen Hoang Nam,50,Nam,Hai Phong,320.400,2023-05-05
+B006,Le Thi Mai,37,Nu,Bac Ninh,210.600,2023-05-06
+B007,Tran Minh Hai,44,Nam,Thanh Hoa,350.100,2023-05-07
+B008,Nguyen Thi Lan,52,Nu,Long An,280.500,2023-05-08
+B009,Le Thanh Tung,29,Nam,Vinh,220.000,2023-05-09
+B010,Tran Quang Huy,41,Nam,Hue,330.900,2023-05-10
+B011,Pham Thien Tam,35,Nu,Bac Giang,310.800,2023-05-11
+B012,Nguyen Thi Lan,58,Nu,Thai Nguyen,400.000,2023-05-12
+B013,Le Thanh Long,42,Nam,Quang Ninh,350.600,2023-05-13
+B014,Tran Thi Thao,33,Nu,Quang Nam,270.900,2023-05-14
+B015,Nguyen Ngoc Hoang,55,Nam,Bac Lieu,375.800,2023-05-15
+B016,Pham Minh Duc,60,Nam,Ha Tinh,420.000,2023-05-16
+B017,Le Quang Hai,47,Nam,Nghe An,340.200,2023-05-17
+B018,Tran Thi Ngoc,50,Nu,Da Nang,265.000,2023-05-18
+B019,Nguyen Hoai Nam,39,Nam,Lao Cai,315.900,2023-05-19
+B020,Le Van Tuan,31,Nam,Phu Tho,230.800,2023-05-20
+B021,Tran Thi Kim,49,Nu,Quang Tri,330.400,2023-05-21
+B022,Nguyen Huu Phuoc,38,Nam,Da Nang,320.600,2023-05-22
+B023,Le Dang Lan,41,Nam,Binh Duong,330.000,2023-05-23
+B024,Pham Thanh Binh,43,Nu,Ho Chi Minh,250.200,2023-05-24
+B025,Nguyen Le Tuyet,48,Nu,An Giang,305.100,2023-05-25
+B026,Le Xuan Tung,59,Nam,Ha Nam,420.700,2023-05-26
+B027,Tran Thi Lan,40,Nu,Hai Duong,290.500,2023-05-27
+B028,Nguyen Duc Anh,43,Nam,Quang Tri,380.200,2023-05-28
+B029,Le Thi Bich,36,Nu,Binh Phuoc,320.000,2023-05-29
+B030,Pham Tam Anh,45,Nu,Ho Chi Minh,270.600,2023-05-30
+B031,Nguyen Minh Hoang,49,Nam,Ha Noi,390.900,2023-05-31
+B032,Le Tri Dung,53,Nam,Quang Nam,360.000,2023-06-01
+B033,Tran Thi Lan,61,Nu,Quang Binh,400.000,2023-06-02
+B034,Nguyen Xuan Son,28,Nam,Binh Duong,220.500,2023-06-03
+B035,Le Thi Thanh,50,Nu,Bac Giang,375.000,2023-06-04
+B036,Pham Bao Lam,34,Nam,Bac Ninh,260.800,2023-06-05
+B037,Nguyen Thi Hoa,55,Nu,Ha Noi,320.900,2023-06-06
+B038,Le Hong Han,46,Nu,Thua Thien Hue,315.500,2023-06-07
+B039,Tran Thanh Tam,60,Nam,Quang Binh,420.800,2023-06-08
+B040,Nguyen Kieu Lan,51,Nu,TP.Ho Chi Minh,310.000,2023-06-09
+B041,Le Quoc Huy,40,Nam,Nghe An,350.000,2023-06-10
+B042,Pham Minh Quang,53,Nam,Quang Ninh,330.200,2023-06-11
+B043,Nguyen Thi Mai,44,Nu,Bac Giang,290.500,2023-06-12
+B044,Le Thanh Ha,56,Nu,Quang Nam,275.800,2023-06-13
+B045,Tran Hoang Dung,32,Nam,Binh Duong,350.300,2023-06-14
+B046,Nguyen Hoang Quan,48,Nam,Quang Ninh,375.200,2023-06-15
+B047,Le Thi Nhu,29,Nu,Ha Noi,310.000,2023-06-16
+B048,Pham Minh Tri,33,Nam,TP.Ho Chi Minh,320.400,2023-06-17
+B049,Nguyen Bao Ngoc,50,Nu,Long An,355.500,2023-06-18
+B050,Le To Lan,42,Nu,Ha Noi,280.800,2023-06-19
