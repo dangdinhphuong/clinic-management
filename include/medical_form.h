@@ -1,3 +1,6 @@
+#ifndef MEDICAL_FORM_H
+#define MEDICAL_FORM_H
+
 #include <string>
 using namespace std;
 
