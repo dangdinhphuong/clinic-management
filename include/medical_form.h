@@ -1,27 +1,19 @@
-// ------------------- Cấu trúc phiếu khám -------------------
+#include <string>
+using namespace std;
+
+// Cấu trúc phiếu khám bệnh
 struct MedicalForm {
-    string ;
+    string formId;
     string patientId;
     string date;
     string diagnosis;
     MedicalForm* next;
 };
-// ------------------- Hàm nhập phiếu khám -------------------
-void inputForms(MedicalForm*& head, int n) {
-    for (int i = 0; i < n; ++i) {
-        MedicalForm* newNode = new MedicalForm;
-        cout << "Nhap thong tin phieu kham thu " << i + 1 << ":\n";
-        cout << "Ma phieu: "; getline(cin, newNode->formId);
-        cout << "Ma benh nhan: "; getline(cin, newNode->patientId);
-        cout << "Ngay kham: "; getline(cin, newNode->date);
-        cout << "Chuan doan: "; getline(cin, newNode->diagnosis);
-        newNode->next = nullptr;
 
-        if (!head) head = newNode;
-        else {
-            MedicalForm* temp = head;
-            while (temp->next) temp = temp->next;
-            temp->next = newNode;
-        }
-    }
-}
+// Khai báo các hàm xử lý phiếu khám
+void inputForms(MedicalForm*& head, int n);
+void printForms(MedicalForm* head);
+void saveFormsToFile(MedicalForm* head, const string& filename);
+void loadFormsFromFile(MedicalForm*& head, const string& filename);
+
+#endif
