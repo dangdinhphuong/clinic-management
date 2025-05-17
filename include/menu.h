@@ -1,8 +1,13 @@
+#ifndef MENU_H
+#define MENU_H
+
 #include <stdio.h>
 #include <stdlib.h>
 
 // Khai báo hàm quản lý bệnh nhân từ module khác
 void patients();
+
+void showMainMenu();
 
 int main() {
     int chon;
@@ -31,3 +36,5 @@ int main() {
 
     return 0;
 }
+
+#endif // MENU_H
