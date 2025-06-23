@@ -10,59 +10,42 @@
 
 ## 📁 Cấu trúc thư mục
 
-    MedicalClinicManager/
-    │
-    ├── include/
-    │   ├── patient.h           ← Định nghĩa class Patient
-    │   ├── medical_form.h      ← Định nghĩa class MedicalForm
-    │   ├── list.h              ← Cấu trúc danh sách liên kết đơn dùng chung
-    │   ├── file_handler.h      ← Hàm đọc/ghi file
-    │   ├── operations.h        ← Thêm/xoá/sửa/tìm/sắp xếp
-    │   ├── statistics.h        ← Phân tích, thống kê
-    │   └── menu.h              ← Khai báo hàm menu
-    │
-    ├── src/
-    │   ├── main.cpp            ← Gọi menu, tích hợp toàn bộ
-    │   ├── patient.cpp         ← Cài đặt class Patient
-    │   ├── medical_form.cpp    ← Cài đặt class MedicalForm
-    │   ├── list.cpp            ← Cài đặt danh sách liên kết đơn
-    │   ├── file_handler.cpp    ← Cài đặt đọc/ghi file
-    │   ├── operations.cpp      ← Cài đặt thêm/sửa/xoá/tìm/sắp xếp
-    │   ├── statistics.cpp      ← Cài đặt phần tính toán thống kê
-    │   └── menu.cpp            ← Hiển thị và xử lý menu
-    │
-    ├── data/
-    │   ├── patients.txt        ← Dữ liệu bệnh nhân
-    │   └── medical_forms.txt   ← Dữ liệu phiếu khám
-    │
-    └── README.md
+/project
+│
+├── models/
+│ ├── Doctor.h ← Định nghĩa struct Doctor
+│ └── Patient.h ← Định nghĩa struct Patient
+│
+├── structures/
+│ ├── Node.h ← Định nghĩa template Node<T>
+│ └── LinkedList.h ← Khai báo & triển khai template LinkedList<T>
+│
+├── core/
+│ └── Menu.h ← Khai báo & xử lý menu chính
+│
+├── main.cpp ← Hàm main(), gọi menu()
+├── doctors.txt ← Dữ liệu bác sĩ lưu dạng văn bản
+├── patients.txt ← Dữ liệu bệnh nhân lưu dạng văn bản
+└── README.md
+
+<pre><code>## 📁 Cấu trúc thư mục ``` /project │ ├── models/ │ ├── Doctor.h ← Định nghĩa struct Doctor │ └── Patient.h ← Định nghĩa struct Patient │ ├── structures/ │ ├── Node.h ← Định nghĩa template Node&lt;T&gt; │ └── LinkedList.h ← Khai báo & triển khai template LinkedList&lt;T&gt; │ ├── core/ │ └── Menu.h ← Khai báo & xử lý menu chính │ ├── main.cpp ← Hàm main(), gọi menu() ├── doctors.txt ← Dữ liệu bác sĩ lưu dạng văn bản ├── patients.txt ← Dữ liệu bệnh nhân lưu dạng văn bản └── README.md ``` </code></pre>
 
 ---
 
-## ✅ Quy định khi phát triển
+## 🧠 Công nghệ sử dụng
 
-👉 **Tất cả các thành viên bắt buộc tuân thủ đúng cấu trúc thư mục trên.**
-
-- **Header files**: Đặt trong thư mục `include/`.
-- **Source code (.cpp)**: Đặt trong thư mục `src/`.
-- **Dữ liệu lưu trữ**: Đặt trong thư mục `data/`.
-- **Chương trình chính (`main.cpp`)**: Chỉ dùng để gọi menu và tích hợp các thành phần.
+- 🧾 Ngôn ngữ: **C++17**
+- 💾 Lưu trữ: File `.txt`
+- 🧩 Cấu trúc dữ liệu: Template **Linked List**
 
 ---
 
 ## 📜 Hướng dẫn sử dụng
 
 1. **Biên dịch chương trình**:
-   - Nếu sử dụng `Makefile`, chạy lệnh:
-     ```bash
-     make
-     ```
-   - Nếu không, biên dịch thủ công bằng lệnh:
-     ```bash
-     g++ -o MedicalClinicManager src/*.cpp -I include/
-     ```
+   ```bash
+      g++ main.cpp core/Menu.cpp -o app -std=c++17
 
 2. **Chạy chương trình**:
    ```bash
-   ./MedicalClinicManager
-   ```
+   ./app
